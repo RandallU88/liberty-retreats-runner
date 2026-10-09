@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Liberty Retreats badge (stand-in)">
+  <defs>
+    <clipPath id="lrIn"><circle cx="100" cy="100" r="72"/></clipPath>
+    <path id="lrTop" d="M 21 100 A 79 79 0 0 1 179 100"/>
+    <path id="lrBot" d="M 11 100 A 89 89 0 0 0 189 100"/>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="#1E2D4A"/>
+  <circle cx="100" cy="100" r="94" fill="none" stroke="#F3ECE1" stroke-width="1.5" opacity=".6"/>
+  <circle cx="100" cy="100" r="73.5" fill="#F3ECE1"/>
+  <g clip-path="url(#lrIn)">
+    <rect x="20" y="20" width="160" height="160" fill="#F3ECE1"/>
+    <rect x="20" y="140" width="160" height="40" fill="#6B5E4E"/>
+    <g>
+      <rect x="70" y="32" width="60" height="26" fill="#9B2C2C"/>
+      <rect x="70" y="35.7" width="60" height="3.7" fill="#F3ECE1"/>
+      <rect x="70" y="43.1" width="60" height="3.7" fill="#F3ECE1"/>
+      <rect x="70" y="50.5" width="60" height="3.7" fill="#F3ECE1"/>
+      <rect x="70" y="32" width="25" height="14.8" fill="#1E2D4A"/>
+      <g fill="#F3ECE1"><circle cx="75" cy="36" r="1"/><circle cx="82" cy="36" r="1"/><circle cx="89" cy="36" r="1"/><circle cx="78.5" cy="40" r="1"/><circle cx="85.5" cy="40" r="1"/><circle cx="75" cy="44" r="1"/><circle cx="82" cy="44" r="1"/><circle cx="89" cy="44" r="1"/></g>
+    </g>
+    <g fill="#1F1A14">
+      <polygon points="56,78 41,108 71,108"/><polygon points="56,92 38,126 74,126"/><polygon points="56,106 35,142 77,142"/>
+      <polygon points="146,84 133,110 159,110"/><polygon points="146,96 130,128 162,128"/><polygon points="146,108 127,142 165,142"/>
+    </g>
+    <rect x="76" y="61" width="48" height="6" rx="2" fill="#1F1A14"/>
+    <rect x="95" y="66" width="10" height="5" fill="#1F1A14"/>
+    <path d="M89 70 C86 70 85 74 85 80 C85 93 81 100 75 105 L75 111 L125 111 L125 105 C119 100 115 93 115 80 C115 74 114 70 111 70 Z" fill="#6B5E4E" stroke="#1F1A14" stroke-width="2"/>
+    <rect x="75" y="106" width="50" height="5" fill="#1F1A14"/>
+    <polyline points="98,111 101,104 97,99 100,93 98,88" fill="none" stroke="#1F1A14" stroke-width="1.6"/>
+    <g transform="translate(100 134)">
+      <rect x="-20" y="-3" width="40" height="6" rx="3" fill="#1F1A14" transform="rotate(14)"/>
+      <rect x="-20" y="-3" width="40" height="6" rx="3" fill="#1F1A14" transform="rotate(-14)"/>
+      <path d="M0 -22 C6 -14 11 -10 9 -3 C8 2 4 4 0 4 C-4 4 -9 2 -9 -4 C-9 -10 -3 -13 0 -22 Z" fill="#9B2C2C"/>
+      <path d="M0 -11 C3 -7 5 -5 4 -1 C3 2 1 3 0 3 C-2 3 -4 1 -4 -1 C-4 -5 -1 -7 0 -11 Z" fill="#E2B26A"/>
+    </g>
+  </g>
+  <text fill="#F3ECE1" style="font: 700 17px Rockwell, 'Roboto Slab', Georgia, serif; letter-spacing: 1.5px"><textPath href="#lrTop" startOffset="50%" text-anchor="middle">LIBERTY RETREATS</textPath></text>
+  <text fill="#F3ECE1" style="font: 700 11.5px Rockwell, 'Roboto Slab', Georgia, serif; letter-spacing: 1.2px"><textPath href="#lrBot" startOffset="50%" text-anchor="middle">BOOK QUIET OHIO DIRT</textPath></text>
+  <g fill="#9B2C2C"><circle cx="14" cy="100" r="3"/><circle cx="186" cy="100" r="3"/></g>
+</svg>
